@@ -1,0 +1,11 @@
+testroute_1:
+  pattern: /bar1
+  defaults: { _controller: "TestRoutingBundle:Default:index" }
+
+testroute_2:
+  pattern: /bar2
+  defaults: { _controller: "TestRoutingBundle:Default:index" }
+
+testroute_3:
+  pattern: /bar3
+  defaults: { _controller: "TestRoutingBundle:Default:index" }

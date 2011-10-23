@@ -1,3 +1,15 @@
+TestRoutingBundle:
+    resource: "@TestRoutingBundle/Resources/config/routing.yml"
+    prefix:   /foo
+
+homepage:
+    pattern: /
+    defaults: { _controller: "TestRoutingBundle:Default:index" }
+
+testroute_4:
+    pattern: /foo/bar4
+    defaults: { _controller: "TestRoutingBundle:Default:index" }
+
 # Internal routing configuration to handle ESI
 #_internal:
 #   resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
